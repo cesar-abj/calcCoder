@@ -1,3 +1,12 @@
+@font-face{
+  font-family: 'RobotoMono';
+  src: url('./fonts/static/RobotoMono-Thin.ttf');
+}
+
+*{
+  font-family: 'RobotoMono', monospace;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +14,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+  background:linear-gradient(to right, #642B73, #C6426E) ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
